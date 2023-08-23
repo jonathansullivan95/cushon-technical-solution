@@ -1,0 +1,20 @@
+version: '1'
+
+services:
+  database:
+    image: mysql:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: "pa55word"
+      MYSQL_DATABASE: "test"
+      MYSQL_USER: "tester"
+      MYSQL_PASSWORD: "pa55word"
+    container_name: tech-test-db
+    ports:
+      - 3306:3306
+    volumes:
+      - tech-test-data:/var/lib/mysql 
+      - ./build/migration.sql:/docker-entrypoint-initdb.d/migration.sql
+
+# persisted storage
+volumes:
+  tech-test-data:
