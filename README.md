@@ -2,6 +2,10 @@
 
 Implementation of Cushon technical assessment
 
+## Prerequisites
+
+You must have Docker installed to be able to spin up the mysql database
+
 ## Setup
 
 This command will spin up a local mysql database and initialise the schema:
