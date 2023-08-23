@@ -1,11 +1,11 @@
 package api
 
 import (
-	"fmt"
-	"net/http"
-
 	"cushon-technical-solution/service"
 	"cushon-technical-solution/types"
+
+	"fmt"
+	"net/http"
 )
 
 func UpdateCustomerAccountInvestmentFundHandler(w http.ResponseWriter, r *http.Request) {

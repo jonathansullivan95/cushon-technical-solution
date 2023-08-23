@@ -6,7 +6,7 @@ CREATE TABLE `fund`
 );
 
 INSERT INTO `fund` (`name`)
-VALUES ('Fund1'), ('Fund2');
+VALUES ('CushionEquitiesFund');
 
 CREATE TABLE `customer`
 (
@@ -16,7 +16,7 @@ CREATE TABLE `customer`
 );
 
 INSERT INTO `customer` (`name`)
-VALUES ('Jonathan'), ('David'), ('Paul');
+VALUES ('Jonathan'), ('David');
 
 CREATE TABLE `customeraccount`
 (

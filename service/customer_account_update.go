@@ -1,11 +1,11 @@
 package service
 
 import (
-	"database/sql"
-	"fmt"
-
 	"cushon-technical-solution/db"
 	"cushon-technical-solution/types"
+
+	"database/sql"
+	"fmt"
 )
 
 func UpdateCustomerAccount(request types.UpdateCustomerAccountRequest) error {
